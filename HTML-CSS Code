@@ -1,0 +1,185 @@
+<style type="text/css">
+    b {
+        color: black;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: white;
+    }
+
+        .flex-container > div {
+            flex-basis: 15%;
+            padding: 2px;
+            text-align: center;
+            font-size: 10px;
+        }
+
+            .flex-container > div:last-child {
+            }
+
+    @media only screen and (max-width: 992px) {
+        .flex-container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+            .flex-container > div {
+                flex-basis: 33%;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                font-size: 13px;
+                min-height: 90px;
+            }
+
+                .flex-container > div:first-child {
+                    border-right: 2px solid black;
+                    border-bottom: 2px solid black;
+                }
+
+                .flex-container > div:nth-child(2) {
+                    border-right: 2px solid black;
+                    border-bottom: 2px solid black;
+                }
+
+                .flex-container > div:nth-child(3) {
+                    border-bottom: 2px solid black;
+                }
+
+                .flex-container > div:nth-child(4) {
+                    border-right: 2px solid black;
+                }
+
+                .flex-container > div:nth-child(5) {
+                    border-right: 2px solid black;
+                }
+    }
+
+    .klarnaAlign {
+        text-align: center !importantant;
+    }
+
+    @media only screen and (max-width: 480px) {
+        .flex-container {
+            width: 100%;
+        }
+
+            .flex-container > div {
+                min-height: 96px;
+            }
+    }
+
+    @media only screen and (min-width: 992px) {
+        .flex-container > div {
+            font-size: 15px;
+            border-left: 2px solid black;
+        }
+
+            .flex-container > div:last-child {
+                border-right: 2px solid black;
+            }
+    }
+
+
+    @media only screen and (max-width: 364px) {
+        .flex-container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+            .flex-container > div {
+                flex-basis: 45%;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                font-size: 13px;
+                min-height: 90px;
+            }
+
+                .flex-container > div:first-child {
+                    border-right: none;
+                    border-bottom: none;
+                }
+
+                .flex-container > div:nth-child(2) {
+                    border-right: none;
+                    border-bottom: none;
+                }
+
+                .flex-container > div:nth-child(3) {
+                    border-bottom: none;
+                }
+
+                .flex-container > div:nth-child(4) {
+                    border-right: none;
+                }
+
+                .flex-container > div:nth-child(5) {
+                    border-right: none;
+                }
+    }
+</style>
+<div class="flex-container">
+
+    <div>
+        <a href="https://www.rue21.com/creditcard" alt="rue21 Rewards Credit Card">
+            <br> <img src="https://images.contentstack.io/v3/assets/bltcd27fedbf2b443e4/blt909ed4d122ff5c13/654bd9fe52ab7e040a3d3767/credit-card-black-png-0.png" alt="rue21 Rewards Credit Card" width="40" height="40" alt="rue21 Rewards Credit Card">
+            <br />
+            <b>rue21 REWARDS. <br>Credit Card</b>
+
+        </a>
+    </div>
+
+    <div>
+        <a href="https://www.rue21.com/rue21-rewards" alt="rue21 Rewards. Join. Earn. Redeem">
+            <br> <img src="https://images.contentstack.io/v3/assets/bltcd27fedbf2b443e4/bltf13328691342767e/618172808544150f29ab1425/rewardsicon.png" alt="rrue21 Rewards. Join. Earn. Redeem" width="40" height="40" alt="rue21 Rewards. Join. Earn. Redeem">
+            <br />
+            <b>rue21 REWARDS. </b> <br><b style="font-size:11px;">Join. Earn. Redeem.</b>
+
+        </a>
+    </div>
+
+    <div>
+        <a href="https://www.rue21.com/store/klarna" alt="Klarna. Shop now Pay Later">
+            <br> <img src="https://images.contentstack.io/v3/assets/bltcd27fedbf2b443e4/blt933a07561e7a3b7e/61818867cd8c830db6444779/klarna_v3.png" width="100" height="40" alt="Klarna. Shop now Pay Later">
+            <br />
+            <b>Shop Now <br>Pay Later </b>
+
+        </a>
+    </div>
+
+    <div>
+        <a href="https://www.rue21.com/store/bopis-faq" alt="Klarna. Shop now Pay Later">
+            <br> <img src="https://images.contentstack.io/v3/assets/bltcd27fedbf2b443e4/bltfd2f97245ddeaa70/654bd1f6077aca040a535eab/_4538B6C0-1017-4837-AD83-3309AD0F5919_.png" width="40" height="40" alt="Buy Online Pick Up In Store">
+            <br />
+            <b>Buy Online <br>Pick Up In Store </b>
+
+        </a>
+    </div>
+
+    <div>
+        <a href="https://www.rue21.com/store/gift-cards" alt="rue 21 Gift Cards">
+            <br> <img src="https://images.contentstack.io/v3/assets/bltcd27fedbf2b443e4/blt5523b179bd957c07/654bd2ddd57b58040a5976db/_F5508F48-EB06-43B1-8389-0F12C4963DEA_.png" width="50" height="40" alt="rue 21 Gift Card">
+            <br />
+            <b>rue21 <br>Gift Cards </b>
+
+        </a>
+    </div>
+
+    <div>
+        <a href="" onclick="if(navigator.userAgent.toLowerCase().indexOf('canvas') > 0){this.href='https://cloud.emailrue21.com/MobileAppContest'} else {this.href='https://www.rue21.com/store/app-giveaway'}">
+            <br> <img src="https://images.contentstack.io/v3/assets/bltcd27fedbf2b443e4/blt3e40aa2b747c18e2/654bd469fb8a50040ab77dc5/360_F_536241340_GsrsNhcWC0hyTVaJLilNafyDw6fl0cC8.png" width="40" height="40" alt="Download The App">
+            <br />
+            <b>Download <br>The App</b>
+
+        </a>
+    </div>
+
+</div>
